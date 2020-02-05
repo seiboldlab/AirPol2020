@@ -5,3 +5,5 @@ Code repository for the manuscript: "Genome-wide analysis reveals mucociliary re
 2. enrichment_analysis.R: This script takes a list of differentially genes as an input and submits those list into Enrichr website through Enrichr API. It will output enriched pathways and GOs along with their significances. This script requires two additional files to work:
   - enrichrAPI.py: a python script that provide the direct call to Enrichr website.
   - EnrichrFunctions.R: a compilation of wrapper functions to call the python function through R
+
+Data sets referred to as OE0.75, OE7.5, and OE75 correspond to low, moderate, and high OE dose, respectively. 
